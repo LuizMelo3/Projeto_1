@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitPoint</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  </style>
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>FitPoint</h1>
+      <nav>
+        <ul>
+          <li><a href="#about" title="Ir para sobre">Sobre</a></li>
+          <li><a href="#cadastro" title="Ir para meu perfil">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="about">
+    <div class="container">
+      <img class="point_front" src="imagens/academia.png" alt="Mulher fazendo musculação em uma academia" />
+      <div>
+        <h1>Sobre a FitPoint</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deleniti eaque cumque hic voluptatibus dolore. Nobis quo distinctio obcaecati itaque rerum? Recusandae est tempore velit architecto odit nulla dolorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, quo quia. Totam, consequatur autem est numquam illo a voluptatibus eveniet necessitatibus enim sed velit, saepe in itaque suscipit corrupti magni! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ex similique aspernatur magni blanditiis officiis error fugit, minus commodi nihil a deserunt modi. Labore dolorum impedit voluptas temporibus, quos nemo?</iure>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, perspiciatis a soluta rem accusamus assumenda? Nobis, sequi expedita numquam cumque, necessitatibus quia assumenda praesentium facere inventore consequatur incidunt voluptas voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptates. Fuga eum rerum itaque vitae repellat, facere maiores sit exercitationem voluptatibus pariatur reprehenderit harum deleniti id possimus iusto eveniet! Neque?
+        </p>
+        <p class="equipe"> - Equipe FitPoint</p>
+      </div>
+    </div>
+  </section>
+  <section id="cadastro">
+    <div class="cadastro">
+      <h1>Faça aqui seu cadastro</h1>
+      <div class="formulario">
+        <h3>Assine o formulario</h3>
+        <form>
+          <label>Nome:</label>
+          <input type="text" required />
+
+          <label for="email">Email:</label>
+          <input id="email" required />
+          
+          <label for="nascimento">Data de nascimento: (Opcional)</label>
+          <input type="date" id="nascimento" />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" required/>
+
+          <label for="mensagem">Sua mensagem (Opcional)</label>
+          <textarea id="mensagem"></textarea>
+          
+          <button type="submit">Clique aqui para registrar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>
+        &copy; FitPoint - Todos os direitos reservados - 2025
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
